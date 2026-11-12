@@ -1,4 +1,5 @@
-public class Abcd {
+
+class Encp12{
     private String name;
 
     public String getName() {
@@ -7,5 +8,13 @@ public class Abcd {
 
     public void setName(String name) {
         this.name = name;
+    }
+}
+public class Abcd {
+    public static void main(String[] args){
+      Encp12 c=new Encp12();
+        c.setName("pradeep");
+        System.out.println(c.getName());
+        
     }
 }
